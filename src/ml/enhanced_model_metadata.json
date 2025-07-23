@@ -1,0 +1,32 @@
+{
+  "model_version": "v2.1.0",
+  "feature_names": [
+    "temperature_avg",
+    "temperature_min",
+    "temperature_max",
+    "precipitation",
+    "humidity_avg",
+    "wind_speed_avg",
+    "temp_range",
+    "temp_humidity_interaction",
+    "temperature_avg_ma7",
+    "precipitation_ma7",
+    "humidity_avg_ma7",
+    "seasonal_factor",
+    "day_of_year",
+    "month",
+    "cases_dengue_lag_1",
+    "temperature_avg_lag_1",
+    "precipitation_lag_1",
+    "cases_dengue_lag_3",
+    "temperature_avg_lag_3",
+    "precipitation_lag_3",
+    "cases_dengue_lag_7",
+    "temperature_avg_lag_7",
+    "precipitation_lag_7",
+    "cases_dengue_lag_14",
+    "temperature_avg_lag_14",
+    "precipitation_lag_14"
+  ],
+  "created_at": "2025-07-21T13:56:05.634005"
+}
