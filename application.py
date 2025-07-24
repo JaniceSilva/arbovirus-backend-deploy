@@ -12,8 +12,8 @@ from src.main import app
 
 # Elastic Beanstalk espera uma variável chamada 'application'
 application = app
- 
-if __name__ == '__main__':
-    # Para desenvolvimento local
-    application.run(host='0.0.0.0', port=5000, debug=False)
 
+if __name__ == '__main__':
+    # Para desenvolvimento local e compatibilidade com Beanstalk
+    port = int(os.environ.get('PORT', 5000))
+    application.run(host='0.0.0.0', port=port, debug=False)
