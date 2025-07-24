@@ -8,7 +8,7 @@ import sys
 # Adicionar diretório src ao path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-from main import app  # <- Corrigido
+from main import app  # import correto
 
 # Elastic Beanstalk espera uma variável chamada 'application'
 application = app
